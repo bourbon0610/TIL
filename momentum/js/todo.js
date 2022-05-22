@@ -45,10 +45,6 @@ function hadleToDoSubmit(event) {
 
 toDoForm.addEventListener("submit", hadleToDoSubmit);
 
-function sayHello(item) {
-    console.log("hello", item);
-}
-
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
 if(savedToDos !== null) {

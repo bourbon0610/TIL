@@ -1,0 +1,68 @@
+.hidden {
+    display: none;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input {
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    /* style="border: none; border-bottom: 3px solid white; outline: none; background-color:transparent" */
+    /* style="border: none; border-bottom: 3px solid white; outline: none; background-color:transparent" */
+}
+
+body {
+    background-image: url("https://source.unsplash.com/category/nature,background/1600x900");
+    background-size: cover;
+    overflow: hidden;
+    background-color: lightslategray;
+    color: white;
+    text-shadow: 1px 0 black, 1px 0 black, 1px 0 black, 1px 0 black;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    margin-top: 30%;
+}
+
+#login-form {
+    position: relative;
+    text-align: center;
+}
+
+#todo-list {
+    position: relative;
+}
+
+ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#login {
+    position: relative;
+    text-align: center;
+}
+
+#todo-form {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
