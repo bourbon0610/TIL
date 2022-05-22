@@ -33,6 +33,7 @@ function showList(toDoForm) {
 function handleToDoInput(event) {
     event.preventDefault();
     const toDo = toDoInput.value;
+    toDoInput.value="";
     const toDoForm = {
         id : Date.now(),
         text : toDo,
