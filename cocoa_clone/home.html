@@ -13,38 +13,37 @@
     <style>
       body {
         display: flex;
+        height: 100vh;
+        align-items: center;
         justify-content: center;
       }
-      @keyframes coinMove {
-        0% {
-          transform: rotateY(0deg);
-        }
-        25% {
-          transform: scale(2);
-          border-color: saddlebrown;
-        }
-        50% {
-          transform: rotateY(350deg) translateY(200px);
-        }
-        75% {
-          transform: scale(5);
-          border-radius: 20px;
-        }
-        100% {
-          transform: rotateY(0deg);
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+      @media screen and (min-width: 601px) and (max-width: 1200px) {
+        div {
+          background-color: wheat;
         }
       }
-      img {
-        border: 5px solid black;
-        border-radius: 50%;
-        animation: coinMove 4s ease-in-out infinite;
+      span {
+        font-size: 36px;
       }
-      img:hover {
-        transform: rotateZ(90deg);
+      @media screen and (orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+      @media print {
+        body {
+          background-color: tomato;
+        }
       }
     </style>
   </head>
   <body>
-    <img src="https://nomadcoders.co/m.png" />
+    <div></div>
+    <span>Please flip your phone:(</span>
   </body>
 </html>
