@@ -11,24 +11,17 @@
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet" />
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: all 1s cubic-bezier(0.6, 0, 0.735, 0.045),
-          border-radius 5s ease-in-out, bacground-color 10s ease-out;
+      img {
+        border: 5px solid black;
+        border-radius: 50%;
+        transition: transform 5s ease-in-out;
       }
-      a:hover {
-        border-radius: 15px;
-        color: tomato;
-        background-color: wheat;
+      img:hover {
+        transform: rotateZ(90deg);
       }
     </style>
   </head>
   <body>
-    <a href="#">Go home</a>
+    <img src="https://nomadcoders.co/m.png" />
   </body>
 </html>
