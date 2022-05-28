@@ -11,69 +11,24 @@
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet" />
     <style>
-      :root {
-        --main-color: #489ee3;
-        --default-border: 1px solid var(--main-color);
-      }
-      body {
-        height: 1000vh;
-        margin: 50px;
-      }
-      span {
-        background-color: yellowgreen;
-        padding: 5px;
-        border-radius: 10px;
-      }
-      div > span {
-        text-decoration: underline;
-      }
-      p span {
-        color: white;
-      }
-      p ~ span {
-        text-decoration: underline;
-      }
-      input {
-        border: 1px solid white;
-      }
-      input:required {
-        border: var(--default-border);
-      }
-      input[placeholder~="name"] {
-        background-color: thistle;
-      }
-      button:focus {
+      a {
+        color: wheat;
         background-color: tomato;
-      }
-      a:visited {
-        color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 55px;
+        transition: all 1s cubic-bezier(0.6, 0, 0.735, 0.045),
+          border-radius 5s ease-in-out, bacground-color 10s ease-out;
       }
       a:hover {
-        color: teal;
-      }
-      a:focus {
-        color: var(--main-color);
-      }
-      form {
-        border: 1px solid salmon;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-      }
-      form:hover input:focus {
-        background-color: sienna;
+        border-radius: 15px;
+        color: tomato;
+        background-color: wheat;
       }
     </style>
   </head>
   <body>
-    <div>
-      <form>
-        <button>hello</button>
-        <input type="text" placeholder="first name" />
-        <input type="text" placeholder="last name" />
-        <input type="password" required placeholder="password" />
-        <a href="http://apple.com">link</a>
-      </form>
-    </div>
+    <a href="#">Go home</a>
   </body>
 </html>
