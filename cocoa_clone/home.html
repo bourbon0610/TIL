@@ -11,6 +11,10 @@
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet" />
     <style>
+      :root {
+        --main-color: #489ee3;
+        --default-border: 1px solid var(--main-color);
+      }
       body {
         height: 1000vh;
         margin: 50px;
@@ -33,7 +37,7 @@
         border: 1px solid white;
       }
       input:required {
-        border: 1px solid tomato;
+        border: var(--default-border);
       }
       input[placeholder~="name"] {
         background-color: thistle;
@@ -48,7 +52,7 @@
         color: teal;
       }
       a:focus {
-        color: aqua;
+        color: var(--main-color);
       }
       form {
         border: 1px solid salmon;
