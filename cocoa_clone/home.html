@@ -24,20 +24,29 @@
         text-decoration: underline;
       }
       p span {
-        color: teal;
+        color: white;
       }
-      p + span {
+      p ~ span {
         text-decoration: underline;
+      }
+      input {
+        border: 1px solid white;
+      }
+      input:required {
+        border: 1px solid tomato;
+      }
+      input[placeholder~="name"] {
+        background-color: thistle;
       }
     </style>
   </head>
   <body>
     <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
-        esequi ipsam odio dolorem.<span>inside</span>
-      </p>
-      <span>hello</span>
+      <form>
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="last name" />
+        <input type="password" required placeholder="password" />
+      </form>
     </div>
   </body>
 </html>
