@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-gray-transparent);
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid var(--color-green);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+}
+.nav__etcnotification {
+  background-color: tomato;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+}

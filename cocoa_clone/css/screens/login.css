@@ -45,6 +45,7 @@
   cursor: pointer;
   font-size: 15px;
   border-radius: 5px;
+  color: black;
 }
 #login-form a {
   text-align: center;
