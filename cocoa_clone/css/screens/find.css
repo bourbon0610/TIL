@@ -1,0 +1,115 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.find-icons i {
+  font-size: 35px;
+}
+.find-icons__icon span {
+  margin-top: 18px;
+}
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 25px 0px;
+  margin: 25px 0px;
+}
+.recommended-friends__title {
+  font-size: 14px;
+  color: var(--color-gray-transparent7);
+}
+.recommended-friends span {
+  display: block;
+  margin: 110px 0px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-gray-transparent7);
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-post {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+  font-size: 19px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__member-count {
+  font-size: 14px;
+  opacity: 0.5;
+}
+.open-post__members .divider {
+  width: 1px;
+  height: 10px;
+  background-color: var(--color-gray-transparent);
+  margin: 0 5px;
+}
+.open-post__member-status {
+  color: tomato;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  font-size: 12px;
+}
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+.screen-header__icons {
+  position: relative;
+}
+.screen-header__icons-gear-notification {
+  background-color: tomato;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  bottom: 20px;
+}

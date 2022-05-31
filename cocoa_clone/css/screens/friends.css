@@ -10,12 +10,12 @@
 #friends-display-link i {
   color: var(--color-green);
 }
-.friends-screen {
+.main-screen {
   padding: var(--horizontal-space);
 }
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid var(--color-green);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {

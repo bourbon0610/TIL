@@ -4,7 +4,9 @@
   --color-green: #22c782;
   --color-red: #f8321d;
   --color-gray: #f0f0f0;
+  --color-pink: #ffb0e0;
   --color-gray-transparent: rgba(240, 240, 2240, 0.2);
   --color-gray-transparent7: rgba(240, 240, 2240, 0.7);
   --horizontal-space: 25px;
+  --main-border: 1px solid var(--color-green);
 }
