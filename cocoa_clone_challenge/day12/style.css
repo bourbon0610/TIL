@@ -15,8 +15,10 @@ input[type="range"] {
 }
 body {
   background-color: lightgrey;
-  padding: 5%;
+  padding: 2%;
   display: flex;
+  margin-right: 5%;
+  width: 150vw;
 }
 .screen {
   display: flex;
