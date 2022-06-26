@@ -1,0 +1,13 @@
+@import "_variables";
+
+@mixin a() {
+  text-decoration: none;
+  color: $color_gray;
+  border-bottom: 1px solid $color_gray;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  word-spacing: 10px;
+}
+@mixin content() {
+  box-shadow: 0 20px 20px 20px rgba($color: $color_gray, $alpha: 1);
+}
