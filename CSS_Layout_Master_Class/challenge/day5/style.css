@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  display: grid;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  grid-column: 1/-1;
+  grid-row: 1;
+  grid-auto-rows: 10vh;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(10vw, 20vw));
+  justify-content: stretch;
+  align-items: stretch;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.content > div {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  font-size: 20px;
+  margin: 20px;
+}
+.content div:nth-child(2) {
+  font-size: 15px;
+}
+.content:nth-child(2) {
+  background-color: #bfbda7;
+}
+.content:nth-child(4) {
+  background-color: #ff4815;
+}
+.content:nth-child(6) {
+  background-color: #847f96;
+}
+.content:nth-child(7) {
+  background-color: #d1fe71;
+}
+.content:nth-child(8) {
+  background-color: #9a3433;
+}
+.content:nth-child(9) {
+  background-color: #38aafa;
+}
+.content:nth-child(11) {
+  background-color: #40917a;
+}
+.content:nth-child(13) {
+  background-color: #e2c5e5;
+}
