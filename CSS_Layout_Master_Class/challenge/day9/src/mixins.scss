@@ -1,0 +1,18 @@
+$color_yellow: #f0e459;
+$color_green: #46aa4e;
+$color_red: #ff6a39;
+
+@mixin box_white {
+  background-color: white;
+  //   border: 3px solid $color_red;
+  color: $color_red;
+}
+@mixin box_red {
+  background-color: $color_red;
+  color: white;
+}
+@mixin box_green {
+  background-color: $color_green;
+  color: white;
+  //   border: 3px solid $color_red;
+}
